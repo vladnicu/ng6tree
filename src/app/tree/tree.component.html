@@ -1,0 +1,12 @@
+<p>
+  {{title}}
+</p>
+
+<ul *ngIf="treeData">
+  <li *ngFor="let node of treeData">
+      <span *ngIf="node.children" class="fa fa-caret-right"></span>
+      <span> {{ node.name }} </span>
+      <app-tree *ngIf="node.showChildren" [treeData]="node.children"></app-tree>
+  </li>  
+</ul>
+

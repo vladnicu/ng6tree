@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NODES } from './tree/mock-nodes';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Simple Angular tree like structure';
+
+  nodes = NODES;
 }
+
