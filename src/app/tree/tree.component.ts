@@ -16,8 +16,9 @@ export class TreeComponent implements OnInit {
   ngOnInit() {
   }
 
-  showChildren(){
-    
+  toggleChild(node) {
+    node.showChildren = !node.showChildren;
   }
+ 
 
 }

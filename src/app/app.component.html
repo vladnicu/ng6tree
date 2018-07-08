@@ -1,9 +1,12 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
+<div class="jumbotron">
+  <h1 class="display-4">{{ title }}!</h1>
+  <p class="lead">This is a simple tree structure built using Angular 6 & TypeScript</p>
+  <hr class="my-4">
+  <div class="tree-wrapper">
+    <app-tree [treeData]="nodes"></app-tree>
+  </div>
 
-  <app-tree [treeData]="nodes" ></app-tree>
+  <hr class="my-4">
+  <p>By Vlad Nicu - nicuvlad89@gmail.com</p>
+  
 </div>
-

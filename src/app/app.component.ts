@@ -7,7 +7,7 @@ import { NODES } from './tree/mock-nodes';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Simple Angular tree like structure';
+  title = 'Angular tree like structure';
 
   nodes = NODES;
 }
