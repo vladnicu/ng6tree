@@ -1,3 +1,7 @@
+#### Simple Angular tree like structure
+
+I created this project for this Medium article.
+
 # Ng6tree
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
