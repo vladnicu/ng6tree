@@ -10,8 +10,6 @@ import { TreeNode } from './tree-node';
 export class TreeComponent implements OnInit {
 
   @Input() treeData: TreeNode[];
-  
-  constructor() { }
 
   ngOnInit() {
   }
@@ -19,6 +17,5 @@ export class TreeComponent implements OnInit {
   toggleChild(node) {
     node.showChildren = !node.showChildren;
   }
- 
 
 }
